@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ServiceInteraction
 {
-    interface ICommunicableJedi
+    public interface ICommunicableJedi
     {
         string SayHi(uint greetingsCounter, string log);
     }
